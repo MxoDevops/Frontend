@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 
 
 
@@ -12,21 +13,27 @@
 
     font-family: 'Quicksand', sans-serif;
      background-image: url(spacex_starship_hls_artemis_iii_2_crew_0-8d26a26eaf9fefb46e2b831b36005ac6e5d8b297-s1300-c85.webp);
-     background-position: 90px 45px;
+     background-position: 90px 85px;
   }
 
 .nav {
 
     background-color:rgb(255, 255, 255);
     padding-bottom: 46px;
+    padding-top: 10px;
    
    
 }
 
 .logo {
-
+position: relative;
 text-align: left;
-margin-left: 100px;
+margin-left: 200px;
+top: 35px;
+font-size: 24px;
+font-family: 'Pacifico', sans-serif;
+
+
 
 }
 
@@ -42,7 +49,9 @@ li {
     display: inline;
     margin: 10px;
     margin-top: 120px;
-    margin-left: 20px;
+    margin-left: 30px;
+    font-size: 25px;
+    font-weight: 100;
 }
 
 .hero {
