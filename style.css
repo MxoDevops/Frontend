@@ -1,12 +1,15 @@
-
-.logo {
-
-    position:absolute;
-
-}
-
-
 .nav {
 
-    position: absolute;
+    background-color: aqua;
+}
+
+nav {
+
+    text-align: right;
+}
+
+li {
+    display: inline;
+    margin: 10px;
+    margin-top: 20px;
 }
