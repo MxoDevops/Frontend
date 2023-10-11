@@ -1,17 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+
+    font-family: 'Quicksand', sans-serif;
+     background-image: url(spacex_starship_hls_artemis_iii_2_crew_0-8d26a26eaf9fefb46e2b831b36005ac6e5d8b297-s1300-c85.webp);
+     background-position: 90px 45px;
+  }
+
 .nav {
 
-    background-color: aqua;
-    padding-bottom: 20px;
+    background-color:rgb(255, 255, 255);
+    padding-bottom: 46px;
+   
+   
+}
+
+.logo {
+
+text-align: left;
+margin-left: 100px;
+
 }
 
 nav {
 
     text-align: right;
+    margin-right: 50px;
     
 }
+
 
 li {
     display: inline;
     margin: 10px;
+    margin-top: 120px;
+    margin-left: 20px;
+}
+
+.hero {
+
+    margin-top: 250px;
+    display: block;
+    color: azure;
+    margin-left: 100px;
+    line-height: 50px;
+}
+
+
+h1 {
+
+    font-size: 60px;
+    max-width: 500px;
+    font-weight: 200;
+
+}
+
+p {
+
+    font-size: 20px;
     margin-top: 20px;
+
+}
+
+button {
+
+    height: 50px;
+    width: 163px;
+    font-size: 18px;
 }
