@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+
+
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -39,8 +43,22 @@ li {
 
 .hero {
 
-    margin-top: 300px;
+    margin-top: 250px;
     display: block;
     color: azure;
+    margin-left: 100px;
+    line-height: 50px;
 }
 
+
+h1 {
+
+    font-size: 60px;
+    max-width: 500px;
+
+}
+
+p {
+
+
+}
